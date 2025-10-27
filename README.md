@@ -9,4 +9,4 @@ The free parameters in this model are the parameters that can be chosen at rando
 Each 'parameter point' is a set of these 12 free parameters, namely $\{     \alpha,\beta,\delta,\Delta m^2_{31},\sin^2 \theta_{23},\xi_{1},\xi_{2},\xi_{3}, (Y_N ^{(1)},Y_N ^{(2)},Y_N ^{(3)}),m_1 \}$.  
 
 Other oscillation parametric values are:
-$\delta m_{21} ^2 = 7.49\times 10^{-5} ~\text{eV}^2$, $\sin ^2 \theta_{12} = 0.307$, $\sin ^2 \theta_{13} = 0.02195$ (NuFIT 6.0, 2024)
+$\Delta m_{21} ^2 = 7.49\times 10^{-5} ~\text{eV}^2$, $\sin ^2 \theta_{12} = 0.307$, $\sin ^2 \theta_{13} = 0.02195$ (NuFIT 6.0, 2024)
