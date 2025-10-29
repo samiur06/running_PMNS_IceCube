@@ -50,4 +50,6 @@ Matplotlib style file for the plotting code.
 The Python script for plotting. It plots the event difference as provided in the `numpy` data files in the **count_diff** directory. It performs the plotting for four different flavor compositions, labeled as the `srccode` in the code. The plots are saved in the **figures** directory. 
 
 ### figures
-Contains all the figures for the four source flavor compositions. 
+Directory containing all the figures for the four source flavor compositions. The following plot is Figure 2 from the paper, produced using `plot_count_difference.py` with `srccode=120`.  
+
+<img width="767" height="625" alt="image" src="https://github.com/user-attachments/assets/51956b71-057a-422a-b59b-1f6b780046bc" />
