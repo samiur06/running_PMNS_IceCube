@@ -8,7 +8,7 @@ Stores the benchmarks, parameter points, event differences, and the plotting scr
 Any mismatch between the leptonic mixing matrices (PMNS matrix) at the production scale and the detection scale can lead to observable differences in neutrino flavor transitions $P_{\alpha\beta}$. We follow the procedure described in [2108.11961](https://arxiv.org/abs/2108.11961) to compute the oscillation probability. 
 
 The free parameters in this model are those that can be chosen randomly at the production scale. These are the atmospheric parameters $\{ \theta_{23}, \Delta m^2_{31}\}$, the CP-odd phases ($\tilde{\alpha}(Q_p^2), \tilde{\beta}(Q_p^2)$, and $\delta(Q_p^2)$), the lightest neutrino mass $m_\nu$, the angles parameterizing the orthogonal $R$ matrix $\{\xi_i\}$, and  the Yukawa matrix $Y_N$, i.e., $\text{diag}(Y_N ^{(1)},Y_N ^{(2)},Y_N ^{(3)})$. $R$ is taken to be a real matrix and parameterized by three Euler-like rotation angles $\xi_1$ in the 1-2 plane, $\xi_2$ in the 2-3 plane, and $\xi_3$ in the 1-3 plane. Each 'parameter point' corresponds a set of these 12 free parameters, namely 
-{$\{\alpha,\beta,\delta,\Delta m^2_{31},\sin^2 \theta_{23},\xi_{1},\xi_{2},\xi_{3}, (Y_N ^{(1)},Y_N ^{(2)},Y_N ^{(3)}),m_1\}$}.  
+{ $\{\alpha,\beta,\delta,\Delta m^2_{31},\sin^2 \theta_{23},\xi_{1},\xi_{2},\xi_{3}, (Y_N ^{(1)},Y_N ^{(2)},Y_N ^{(3)}),m_1\}$ }.  
 
 Other oscillation parameters are:
 $\Delta m_{21} ^2 = 7.49\times 10^{-5} ~\text{eV}^2$, $\sin ^2 \theta_{12} = 0.307$, $\sin ^2 \theta_{13} = 0.02195$ (NuFIT 6.0, 2024)
