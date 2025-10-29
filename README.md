@@ -19,7 +19,9 @@ Directory containing benchmark parameter points for Figure 1 and the star benchm
 
 ### parameter_points
 Directory containing parameter points and their sorted order based on the larger average $P_{\mu\tau}$ at high energy.
-Two `numpy` array files named `param_n{nmax}_seed{seedX}.npy` contain `nmax` parameter points with random seed `seedX`. The other two `numpy` array files `sorted_mutaulist_{nmax}_seed{seedX}.npy` list the index of each parameter point from the previous array and its corresponding average $P_{\mu\tau}$. The sorted `numpy` array is in descending order with respect to the $\nu_\mu \to \nu_\tau$ conversion, to locate the maximal tau appearance.
+Two `numpy` array files named `param_n{nmax}_seed{seedX}.npy` contain `nmax` parameter points with random seed `seedX`. Two pair of (`nmax`,`seedX`) are provided; they are $(10000,30)$ and $100000,999$. These integers are associated with random scan of the parameter points, not with physical running. 
+
+The other two `numpy` array files `sorted_mutaulist_{nmax}_seed{seedX}.npy` list the index of each parameter point from the previous array and its corresponding average $P_{\mu\tau}$. The sorted `numpy` array is in descending order with respect to the $\nu_\mu \to \nu_\tau$ conversion, to locate the maximal tau appearance.
 
 ### count_diff
 Directory containing the differences in events with and without running. The filename structure is `difflist_{nmax}_{seedX}_{srccode}.npy`. These are `numpy` arrays, each element in these arrays has the structure `[nmax, seedX, parameter point index, event_diff_dict]`, where `nmax` and `seedX` are in the filename. `srccode` represents the source flavor composition for the astrophysical neutrinos (e.g., 120 means 1:2:0).  
@@ -41,7 +43,7 @@ An example of `event_diff_dict` dictionary is shown below.
 
 We read this as there are no atmospheric tau neutrinos and 2.56 astrophysical tau neutrinos in the standard scenario. When running is considered, there are 0.01, 1.32, 0 tau neutrinos coming from atmospheric electron, muon, and tau neutrinos, respectively (we see dominantly from atm muon neutrino since atm neutrinos are mostly of muon flavor, and furthermore, no tau neutrino in the atm neutrino gives 0 tau neutrino). While tau count from astrophysical sources is 2.57, an increase of only 0.01 from the standard case. Comparing the sums of the standard and running counts, we find an increase of 1.33 events in the running case, the event difference. 
 
-We compute and provide the event counts and differences for 1000 and 70 parameter points in these two sets of files named as `10000_30` and `100000_999`. Four different source flavor compositions were considered; however, no significant difference was observed across them. All the results are plotted and shared in the figures. 
+We implement the sorted list of parameter points (`sorted_mutaulist_{nmax}_seed{seedX}.npy`) to select the maximal tau appearance. We choose the top 1000 parameter points from the file of `10000_30` and the top 70 parameter points from the file of `100000_999`, respectively. We compute and provide the event counts and differences for these parameter points. Four different source flavor compositions (`srccode`) were considered. All the results are plotted and shared in the figures. 
 
 ### mpl 
 Matplotlib style file for the plotting code.
