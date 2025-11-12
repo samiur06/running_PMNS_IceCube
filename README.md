@@ -1,6 +1,6 @@
 # running_PMNS_IceCube
 
-Shared with [arXiv:2511.xxxxx - Double Bangs in IceCube as a Window to the Neutrino Mass Origin](). 
+Shared with [arXiv:2511.07541 - Double Bangs in IceCube as a Window to the Neutrino Mass Origin](https://arxiv.org/abs/2511.07541). 
 
 Stores the benchmarks, parameter points, event differences, and the plotting script.
 
